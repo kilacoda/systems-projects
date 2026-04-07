@@ -5,7 +5,7 @@
 int main(int argc, char const* argv[]) {
   if (argc == 1) {
     // printf("Please enter one or more files as arguments.\n");
-    exit(1);
+    exit(0);
   }
 
   for (int i = 1; i < argc; i++) {
